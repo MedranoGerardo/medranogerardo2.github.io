@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica #4</title>
+</head>
+<body>
+
+    <style>
+
+    @media only screen and (max-width: 768px){}
+
+
+    .Header{
+        display:flex;
+        background-color:rgb(0, 153, 255);
+        justify-content: flex-start;
+        padding: 10px;
+        height: 100px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+
+    .main{
+        display:flex;
+        background-color:rgb(59, 156, 59);
+        justify-content: flex-start;
+        padding: 20px;
+        height: 500px;
+        width: 66.6%;
+        border-radius: 5px;
+        float: left;
+        margin: 5px;
+    }
+
+    .btn{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(26, 95, 49);
+    box-shadow: #000;
+   }
+
+   .btn:hover {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(16, 95, 27);
+    box-shadow: #000;
+   }
+
+  .btn:active{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(27, 70, 14);
+    box-shadow: #000;
+   }
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 25%;
+    height: 300px;
+   }
+
+   ul li{
+   display:inline-block;
+   }
+
+    .sidebar{
+        display:flex;
+        background-color:rgb(235, 98, 44);
+        justify-content: flex-start;
+        padding: 20px;
+        height: 500px;
+        width: 26.7%;
+        border-radius: 5px;
+        float: left;
+        margin: 5px;
+   }
+
+   .footer{
+        display:flex;
+        background-color:rgb(16, 133, 206);
+        justify-content: flex-start;
+        padding: 10px;
+        height: 100px;
+        border-radius: 5px;
+        margin: 10px;
+        clear: both;
+    }
+
+    </style>
+
+
+    <div class="flex-container">
+
+        <div class="Header"> 
+        <FONT COLOR="white">HEADER</FONT>
+        </div>
+
+        <div class="main">
+            <FONT COLOR="white">MAIN</FONT>
+
+            <ul>
+                <br>
+                <li><a class="btn" href="">Item</a></li> 
+                <li><a class="btn" href="">Item</a></li> 
+                <li><a class="btn" href="">Item</a></li> 
+            </ul>
+
+            <ul>
+                <br>
+                <li><a class="btn" href="">Item</a></li> 
+                <li><a class="btn" href="">Item</a></li> 
+                <li><a class="btn" href="">Item</a></li> 
+            </ul>
+
+            <ul>
+                <br>
+                <li><a class="btn" href="">Item</a></li> 
+                <li><a class="btn" href="">Item</a></li> 
+                <li><a class="btn" href="">Item</a></li> 
+            </ul>
+
+            <ul>
+                <br>
+                <li><a class="btn" href="">Item</a></li> 
+                <li><a class="btn" href="">Item</a></li> 
+                <li><a  href=""></a></li> 
+            </ul>
+
+        </div>
+
+        <div class="sidebar"> 
+            <FONT COLOR="white">SIDEBAR</FONT>
+             </div>
+
+
+        <div class="footer">
+        <FONT COLOR="white">FOOTER</FONT>
+        </div>
+
+    </div>
+
+</body>
+</html>
